@@ -17,7 +17,7 @@ https://youtu.be/mAySKo0s27g
 
 
 
-### Update:
+### ~~Update~~:
 #### I think they removed entirely the option or reduced it significantly
 #### They say on the website that there is 1% chance but based on some testing doesn't seem to be true.
 ```
@@ -125,5 +125,17 @@ https://youtu.be/mAySKo0s27g
 101  Enid.Ezana77af64db@gmail.com                      10% off any purchase
 102  Frymire.Abbyea44a185b@gmail.com                   10% off any purchase
 ```
+
 #### Maybe they removed it due to abuse. Anyway... was a fun project, played with puppeteer for a bit.
+---
+
+### Update
+
+#### They actually ended the giveaway the next day: 
+
+https://establishedtitles.com/pages/giveaway-ended
+
+<p align="center">
+  <img src="https://i.imgflip.com/rqmsr.jpg">
+</p>
 
