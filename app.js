@@ -3,6 +3,7 @@ const randomNames = require('./randomNames.json');
 const { v4 } = require('uuid');
 
 const url = 'https://establishedtitles.com/?giveaway';
+let counter = 1;
 
 const rndIndex = () => Math.floor(Math.random() * randomNames.length);
 const pickRandomName = () => randomNames[rndIndex()];
@@ -33,12 +34,20 @@ const run = async () => {
   await page.waitForSelector('#title > span');
   const titleValue = await page.evaluate(() => document.querySelector('#title > span').textContent);
 
-  console.log(`${newEmail} won ${titleValue}`);
+  console.log(
+    [
+      `${counter}`.padEnd(5),
+      `${newEmail}`.padEnd(50),
+      `${titleValue}`
+    ].join('')
+  );
+
 
   if(titleValue !== 'Free Lord/Lady Title Pack') {
     // kill browser
     browser.close();
     // execute again
+    counter++;
     run()
   } else {
     // print code | save
